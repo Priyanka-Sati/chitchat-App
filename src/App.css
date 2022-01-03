@@ -6,14 +6,32 @@
   background-color: #fafafa;
 }
 
+.app_posts{
+  padding: 20px;
+}
+
 .app_headerImage{
   height: 50px;
+  object-fit: contain;
+
 }
 
 .app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
   padding: 12px;
   border-bottom: 1px solid lightgray;
   object-fit: contain;
+  display: flex;
+  justify-content: space-between;
 }
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
